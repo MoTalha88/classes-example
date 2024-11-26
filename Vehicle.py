@@ -13,10 +13,13 @@ class Vehicle:
         return "Beep beep!"
     
     def fuel_up(self):
+        """Simulates fueling the vehicle."""
         return "Full tank"
     
     def brake(self):
-        print("Braking the car.")
+        """Simulates braking."""
+        return "Braking the vehicle."
     
     def mileage(self):
-        print("high milage") 
+        """Provides general information about mileage."""
+        return "High mileage!"
