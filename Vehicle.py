@@ -17,3 +17,6 @@ class Vehicle:
     
     def brake(self):
         print("Braking the car.")
+    
+    def mileage(self):
+        print("high milage") 
