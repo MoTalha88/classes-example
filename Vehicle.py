@@ -15,6 +15,9 @@ class Vehicle:
     def fuel_up(self):
         """Simulates fueling the vehicle."""
         return "Full tank"
+
+    def windshield_fluid(self):
+        return "Windshield fluid empty."
     
     def brake(self):
         """Simulates braking."""
